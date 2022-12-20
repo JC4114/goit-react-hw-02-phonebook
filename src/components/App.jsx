@@ -49,14 +49,10 @@ export default class App extends Component {
     return (
       <div
         style={{
-          // height: '100vh',
-          // display: 'flex',
-          // justifyContent: 'center',
-          // alignItems: 'center',
+         
           margin: '20px',
           width: '700px',
-          // fontSize: 40,
-          // color: '#010101',
+          
         }}
       >
         <h1>Phonebook</h1>
