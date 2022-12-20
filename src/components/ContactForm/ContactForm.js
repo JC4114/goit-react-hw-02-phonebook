@@ -14,6 +14,7 @@ export default class ContactForm extends Component {
     const { name, value } = event.target;
     this.setState({ [name]: value });
   };
+
   submitData = event => {
     event.preventDefault();
     const { onSubmit } = this.props;
@@ -24,6 +25,7 @@ export default class ContactForm extends Component {
   reset = () => {
     this.setState({ name: '', number: '' });
   };
+
   render() {
     const { name, number } = this.state;
     return (
